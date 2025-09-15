@@ -1,19 +1,12 @@
-<p align="center"> 
-    <img src="https://jobs.coderhouse.com/assets/logos_coderhouse.png" alt="CoderHouse"  height="100"/>
-</p>
+# React + Vite
 
-# Listado de Clases - Comisión 88065 (React)
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
+Currently, two official plugins are available:
 
-## Grabaciones
-### 1 - Clase Práctica
-[![YouTube Video](https://img.youtube.com/vi/e2QKm8o3dWg/1.jpg)](https://www.youtube.com/watch?v=e2QKm8o3dWg)
-### 2 - Clase Práctica
-[![YouTube Video](https://img.youtube.com/vi/hSnjkB2xn-0/1.jpg)](https://www.youtube.com/watch?v=hSnjkB2xn-0)
-### 3 - Clase Práctica
-[![YouTube Video](https://img.youtube.com/vi/zBk7u4w8xCA/1.jpg)](https://www.youtube.com/watch?v=zBk7u4w8xCA)
-### 4 - Clase Práctica
-[![YouTube Video](https://img.youtube.com/vi/79n17o9y3GI/1.jpg)](https://www.youtube.com/watch?v=79n17o9y3GI)
-### 5 - Clase Práctica
-[![YouTube Video](https://img.youtube.com/vi/x0hClrADQ1w/1.jpg)](https://www.youtube.com/watch?v=x0hClrADQ1w)
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
