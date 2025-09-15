@@ -6,15 +6,13 @@
   align-items: center;
   justify-content: space-between;
   padding: 0.75rem 2rem;
-  background: #e0bd65e1;
-  color: #fff;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  background: #ffffff;
+  color: #000000;
+  /* box-shadow: 0 2px 8px rgba(0,0,0,0.08); */
 }
 
 .logo {
-  font-weight: bold;
   font-size: 2rem;
-  letter-spacing: 1px;
 }
 
 .nav-links {
@@ -32,6 +30,25 @@
   transition: color 0.2s;
 } */
 
+li a {
+  color: #000000;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.2s;
+}
+
+.nav-links a {
+  color: #000000;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 400;
+  transition: color 0.2s, font-weight 0.2s;
+  display: inline-block;
+  height: 1rem; /* Fija la altura para evitar movimiento */
+
+}
+
 .nav-links a:hover {
-  color: #00bcd4;
+  color: #000000;
+  font-weight: 600;
 }

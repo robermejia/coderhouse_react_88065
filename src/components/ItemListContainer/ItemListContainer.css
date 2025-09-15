@@ -5,11 +5,15 @@ section {
   display: flex;
   justify-content: space-between;
   padding: 2rem;
-  background: #e0bd65e1;
-  color: #fff;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  background: #ffffffe1;
+  color: #000000;
+  /* box-shadow: 0 2px 8px rgba(0,0,0,0.08); */
 }
 h2 {
   font-size: 2rem;
   text-align: center;
+}
+.logo-img{
+  width: 130px;
+  height: auto;
 }

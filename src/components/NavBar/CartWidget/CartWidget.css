@@ -1,6 +1,4 @@
-li a {
-  color: #fff;
-  text-decoration: none;
-  font-size: 55px;
-  transition: color 0.2s;
+.buy-icon {
+  width: 30px;
+  height: 30px;
 }
