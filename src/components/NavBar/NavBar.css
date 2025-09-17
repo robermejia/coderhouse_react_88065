@@ -11,8 +11,9 @@
   /* box-shadow: 0 2px 8px rgba(0,0,0,0.08); */
 }
 
-.logo {
-  font-size: 2rem;
+.logo-img {
+  width: 130px;
+  height: auto;
 }
 
 .nav-links {
@@ -51,4 +52,12 @@ li a {
 .nav-links a:hover {
   color: #000000;
   font-weight: 600;
+}
+
+
+/*Agregado ultimo*/
+/* en NavBar.css */
+.nav-links a.active {
+  font-weight: 700;
+  text-decoration: underline;
 }
