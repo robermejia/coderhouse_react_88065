@@ -1,10 +1,28 @@
+import React, { useEffect, useState } from 'react';
+import ProductCard from '../ProductCard/ProductCard';
 import './ItemListContainer.css';
-const ItemListContainer = ({ greeting }) => {
+
+const fetchProducts = () => {
+  return new Promise((resolve) => {
+    setTimeout(() => {
+      import('../../products.json').then(module => resolve(module.default));
+    }, 1000);
+  });
+};
+
+const ItemListContainer = ({ onProductSelect }) => {
+  const [products, setProducts] = useState([]);
+
+  useEffect(() => {
+    fetchProducts().then(data => setProducts(data));
+  }, []);
+
   return (
-    <section>
-      <h2>{greeting}</h2>
-      {/* Aquí puedes agregar la lista de productos en el futuro */}
-    </section>
+    <div className="item-list-container">
+      {products.map(product => (
+        <ProductCard key={product.id} product={product} onClick={onProductSelect} />
+      ))}
+    </div>
   );
 };
 
