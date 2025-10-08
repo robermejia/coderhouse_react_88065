@@ -1,4 +1,3 @@
-
 import React, { useEffect, useState } from 'react';
 import { useCart } from '../../context/CartContext';
 import { getProductById } from '../../services/firestoreService';

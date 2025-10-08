@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { useCart } from '../../context/CartContext';
 import './CartItem.css';
@@ -62,7 +61,7 @@ const CartItem = ({ item }) => {
           className="remove-btn"
           title="Eliminar del carrito"
         >
-          🗑️
+          <img  src="https://cdn-icons-png.flaticon.com/512/1214/1214428.png" alt="Eliminar" className="remove-icon" /> 
         </button>
       </div>
     </div>

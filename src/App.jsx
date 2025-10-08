@@ -10,6 +10,7 @@ import Cart from './components/Cart/Cart';
 import CheckoutForm from './components/CheckoutForm/CheckoutForm';
 import Error404 from './components/Error404/Error404';
 import './App.css';
+import Footer from './components/Footer/Footer';
 
 const App = () => {
   return (
@@ -35,6 +36,7 @@ const App = () => {
           <Route path="*" element={<Navigate to="/error404" replace />} />
         </Routes>
       </Router>
+      <Footer></Footer>
     </CartProvider>
   );
 };

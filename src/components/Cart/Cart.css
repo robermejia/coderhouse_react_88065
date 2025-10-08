@@ -47,7 +47,7 @@
 }
 
 .cart-summary {
-  background-color: #f8f9fa;
+  background-color: rgb(243, 241, 241);
   padding: 1.5rem;
   border-radius: 10px;
   height: fit-content;

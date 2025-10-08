@@ -1,4 +1,3 @@
-
 .cart-item {
   display: grid;
   grid-template-columns: 100px 1fr auto auto;
@@ -91,6 +90,10 @@
   transition: background-color 0.3s;
 }
 
+.remove-btn img {
+  width: 20px;
+  height: 20px;
+}
 .remove-btn:hover {
   background-color: #f8f9fa;
 }

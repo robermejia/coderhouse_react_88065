@@ -1,4 +1,3 @@
-// src/components/ItemListContainer/itemListContainer.jsx
 import React, { useEffect, useState } from 'react';
 import ProductCard from '../ProductCard/ProductCard';
 import { getProducts } from '../../services/firestoreService';
