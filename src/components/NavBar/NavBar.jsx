@@ -1,3 +1,4 @@
+
 import '../NavBar/NavBar.css';
 import CartWidget from '../NavBar/CartWidget/CartWidget.jsx';
 import { Link, NavLink } from 'react-router-dom';
@@ -23,10 +24,34 @@ const NavBar = () => {
         </li>
         <li>
           <NavLink
-            to="/"
+            to="/productos"
             className={({ isActive }) => (isActive ? 'active' : undefined)}
           >
             Productos
+          </NavLink>
+        </li>
+        <li>
+          <NavLink
+            to="/categoria/Liga Profesional"
+            className={({ isActive }) => (isActive ? 'active' : undefined)}
+          >
+            Liga Profesional
+          </NavLink>
+        </li>
+        <li>
+          <NavLink
+            to="/categoria/Primera Profesional"
+            className={({ isActive }) => (isActive ? 'active' : undefined)}
+          >
+            Primera Profesional
+          </NavLink>
+        </li>
+        <li>
+          <NavLink
+            to="/categoria/Selección Argentina"
+            className={({ isActive }) => (isActive ? 'active' : undefined)}
+          >
+            Selección Argentina
           </NavLink>
         </li>
         <CartWidget />
