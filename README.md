@@ -1,12 +1,140 @@
-# React + Vite
+# E-commerce React - Proyecto Final
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Descripción
+Aplicación web de e-commerce desarrollada con React que permite a los usuarios navegar, ver productos, agregar items al carrito y realizar compras.
 
-Currently, two official plugins are available:
+## Tecnologías Utilizadas
+- **React 19.1.1** - Framework principal
+- **React Router DOM 7.9.1** - Navegación
+- **Firebase/Firestore** - Base de datos
+- **Vite** - Herramienta de build
+- **CSS3** - Estilos
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Funcionalidades Implementadas
 
-## Expanding the ESLint configuration
+### ✅ Listado y Detalle de Productos
+- **ItemListContainer**: Contenedor que obtiene productos de Firestore
+- **ItemDetailContainer**: Vista detallada de productos individuales
+- **ItemCount**: Componente para seleccionar cantidad con validaciones
+- Separación clara entre componentes contenedores y de presentación
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### ✅ Navegación
+- **React Router**: Navegación SPA sin recargas
+- **NavBar**: Navegación entre secciones (Inicio, Productos, Categorías, Carrito)
+- Rutas implementadas:
+  - `/` - Página principal
+  - `/productos` - Lista de todos los productos
+  - `/categoria/:category` - Productos por categoría
+  - `/producto/:id` - Detalle de producto
+  - `/cart` - Carrito de compras
+  - `/checkout` - Finalizar compra
+
+### ✅ Carrito de Compras
+- **Context API**: Gestión del estado del carrito
+- **Cart**: Visualización del carrito con productos y totales
+- **CartItem**: Item individual del carrito
+- **CartWidget**: Icono con contador de items
+- Funcionalidades:
+  - Agregar/eliminar productos
+  - Actualizar cantidades
+  - Calcular totales
+  - Persistencia durante la sesión
+
+### ✅ Firebase/Firestore
+- **Conexión**: Configuración de Firebase
+- **Servicios**: Funciones para obtener productos
+- **Órdenes**: Guardado de compras en Firestore
+- **Consultas**: Por ID, categoría y listado general
+
+### ✅ Experiencia de Usuario
+- **Loaders**: Indicadores de carga
+- **Mensajes condicionales**: "Carrito vacío", "Producto sin stock"
+- **Validaciones**: Stock, cantidades mínimas
+- **Feedback**: Confirmación de órdenes con ID
+
+## Estructura de Componentes
+
+
+## Configuración de Firebase
+
+```javascript
+const firebaseConfig = {
+  apiKey: "AIzaSyDGKM493BtYyIHZyeFkXNETJ-5APDI8Lnk",
+  authDomain: "react-coder-88065.firebaseapp.com",
+  projectId: "react-coder-88065",
+  storageBucket: "react-coder-88065.firebasestorage.app",
+  messagingSenderId: "680484880299",
+  appId: "1:680484880299:web:f7cf7b8cb3a1aa453b9cee"
+};
+```
+
+## Estructura de Base de Datos
+
+### Colección: `products`
+```javascript
+{
+  id: "1",
+  name: "Camiseta titular Boca Juniors",
+  price: 11000,
+  category: "Liga Profesional",
+  year: "2021",
+  stock: 6,
+  imgFrontUrl: "https://raw.githubusercontent.com/...",
+  imgBackUrl: "https://raw.githubusercontent.com/..."
+}
+```
+
+### Colección: `orders`
+```javascript
+{
+  buyer: {
+    name: "Juan Pérez",
+    email: "juan@email.com",
+    phone: "1234567890",
+    address: "Calle 123, Ciudad"
+  },
+  items: [...],
+  total: 22000,
+  date: Timestamp
+}
+```
+
+## Instalación y Uso
+
+1. **Instalar dependencias**:
+   ```bash
+   npm install
+   ```
+
+2. **Instalar Firebase**:
+   ```bash
+   npm install firebase
+   ```
+
+3. **Ejecutar en desarrollo**:
+   ```bash
+   npm run dev
+   ```
+
+4. **Build para producción**:
+   ```bash
+   npm run build
+   ```
+
+## Características Técnicas
+
+- **Responsive Design**: Adaptable a móviles y desktop
+- **Context API**: Gestión de estado global del carrito
+- **Firebase Integration**: Base de datos en la nube
+- **Error Handling**: Manejo de errores y estados de carga
+- **SEO Friendly**: URLs semánticas con React Router
+
+## Convenciones de Código
+
+- **Nomenclatura**: camelCase para variables y funciones
+- **Componentes**: PascalCase
+- **Archivos**: PascalCase para componentes, camelCase para utilidades
+- **Estructura**: Separación de responsabilidades (containers/presentational)
+
+## Autor
+Desarrollado como proyecto final del curso de React en Coderhouse.
