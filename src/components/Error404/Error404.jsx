@@ -1,4 +1,4 @@
-// src/components/Error404/Error404.jsx
+
 import { Link } from 'react-router-dom';
 import './Error.404.css';  
 
