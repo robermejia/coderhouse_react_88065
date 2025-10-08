@@ -5,8 +5,9 @@
     "price": 11000,
     "category": "Liga Profesional",
     "year": "2021",
-    "imgFrontUrl": "camiseta1Front-BocaJuniors-2021.png",
-    "imgBackUrl": "camiseta1Back-BocaJuniors-2021.png"
+    "imgFrontUrl": "https://raw.githubusercontent.com/robermejia/images/refs/heads/main/react_coder/camiseta1Front-BocaJuniors-2021.png",
+    "imgBackUrl": "https://raw.githubusercontent.com/robermejia/images/refs/heads/main/react_coder/camiseta1Back-BocaJuniors-2021.png",
+    "stock": 6
   },
   {
     "id": 2,
@@ -14,8 +15,9 @@
     "price": 8000,
     "category": "Liga Profesional",
     "year": "2021",
-    "imgFrontUrl": "camiseta1Front-AtleticoTucuman-2022.png",
-    "imgBackUrl": "camiseta1Back-AtleticoTucuman-2022.png"
+    "imgFrontUrl": "https://raw.githubusercontent.com/robermejia/images/refs/heads/main/react_coder/camiseta1Front-AtleticoTucuman-2022.png",
+    "imgBackUrl": "https://raw.githubusercontent.com/robermejia/images/refs/heads/main/react_coder/camiseta1Back-AtleticoTucuman-2022.png",
+    "stock": 14
   },
   {
     "id": 3,
@@ -23,8 +25,9 @@
     "price": 7500,
     "category": "Primera Profesional",
     "year": "2021",
-    "imgFrontUrl": "camiseta1Front-Belgrano-2021.png",
-    "imgBackUrl": "camiseta1Back-Belgrano-2021.png"
+    "imgFrontUrl": "https://raw.githubusercontent.com/robermejia/images/refs/heads/main/react_coder/camiseta1Front-Belgrano-2021.png",
+    "imgBackUrl": "https://raw.githubusercontent.com/robermejia/images/refs/heads/main/react_coder/camiseta1Back-Belgrano-2021.png",
+    "stock": 19
   },
   {
     "id": 4,
@@ -32,8 +35,9 @@
     "price": 8000,
     "category": "Liga Profesional",
     "year": "2021",
-    "imgFrontUrl": "camiseta1Front-Estudiantes-2021.png",
-    "imgBackUrl": "camiseta1Back-Estudiantes-2021.png"
+    "imgFrontUrl": "https://raw.githubusercontent.com/robermejia/images/refs/heads/main/react_coder/camiseta1Front-Estudiantes-2021.png",
+    "imgBackUrl": "https://raw.githubusercontent.com/robermejia/images/refs/heads/main/react_coder/camiseta1Back-Estudiantes-2021.png",
+    "stock": 5
   },
   {
     "id": 5,
@@ -41,8 +45,9 @@
     "price": 11500,
     "category": "Liga Profesional",
     "year": "2021",
-    "imgFrontUrl": "camiseta1Front-Independiente-2021.png",
-    "imgBackUrl": "camiseta1Back-Independiente-2021.png"
+    "imgFrontUrl": "https://raw.githubusercontent.com/robermejia/images/refs/heads/main/react_coder/camiseta1Front-Independiente-2021.png",
+    "imgBackUrl": "https://raw.githubusercontent.com/robermejia/images/refs/heads/main/react_coder/camiseta1Back-Independiente-2021.png",
+    "stock": 13
   },
   {
     "id": 6,
@@ -50,8 +55,9 @@
     "price": 9000,
     "category": "Liga Profesional",
     "year": "2022",
-    "imgFrontUrl": "camiseta1Front-Newells-2022.png",
-    "imgBackUrl": "camiseta1Back-Newells-2022.png"
+    "imgFrontUrl": "https://raw.githubusercontent.com/robermejia/images/refs/heads/main/react_coder/camiseta1Front-Newells-2022.png",
+    "imgBackUrl": "https://raw.githubusercontent.com/robermejia/images/refs/heads/main/react_coder/camiseta1Back-Newells-2022.png",
+    "stock": 45
   },
   {
     "id": 7,
@@ -59,8 +65,9 @@
     "price": 10500,
     "category": "Liga Profesional",
     "year": "2021",
-    "imgFrontUrl": "camiseta1Front-Racing-2021.png",
-    "imgBackUrl": "camiseta1Back-Racing-2021.png"
+    "imgFrontUrl": "https://raw.githubusercontent.com/robermejia/images/refs/heads/main/react_coder/camiseta1Front-Racing-2021.png",
+    "imgBackUrl": "https://raw.githubusercontent.com/robermejia/images/refs/heads/main/react_coder/camiseta1Back-Racing-2021.png",
+    "stock": 25
   },
   {
     "id": 8,
@@ -68,8 +75,9 @@
     "price": 11000,
     "category": "Liga Profesional",
     "year": "2021",
-    "imgFrontUrl": "camiseta1Front-RiverPlate-2021.png",
-    "imgBackUrl": "camiseta1Back-RiverPlate-2021.png"
+    "imgFrontUrl": "https://raw.githubusercontent.com/robermejia/images/refs/heads/main/react_coder/camiseta1Front-RiverPlate-2021.png",
+    "imgBackUrl": "https://raw.githubusercontent.com/robermejia/images/refs/heads/main/react_coder/camiseta1Back-RiverPlate-2021.png",
+    "stock": 47
   },
   {
     "id": 9,
@@ -77,8 +85,9 @@
     "price": 9500,
     "category": "Liga Profesional",
     "year": "2022",
-    "imgFrontUrl": "camiseta1Front-RosarioCentral-2022.png",
-    "imgBackUrl": "camiseta1Back-RosarioCentral-2022.png"
+    "imgFrontUrl": "https://raw.githubusercontent.com/robermejia/images/refs/heads/main/react_coder/camiseta1Front-RosarioCentral-2022.png",
+    "imgBackUrl": "https://raw.githubusercontent.com/robermejia/images/refs/heads/main/react_coder/camiseta1Back-RosarioCentral-2022.png",
+    "stock": 42
   },
   {
     "id": 10,
@@ -86,8 +95,9 @@
     "price": 9000,
     "category": "Liga Profesional",
     "year": "2021",
-    "imgFrontUrl": "camiseta1Front-Talleres-2021.png",
-    "imgBackUrl": "camiseta1Back-Talleres-2021.png"
+    "imgFrontUrl": "https://raw.githubusercontent.com/robermejia/images/refs/heads/main/react_coder/camiseta1Front-Talleres-2021.png",
+    "imgBackUrl": "https://raw.githubusercontent.com/robermejia/images/refs/heads/main/react_coder/camiseta1Back-Talleres-2021.png",
+    "stock": 45
   },
   {
     "id": 11,
@@ -95,8 +105,9 @@
     "price": 10000,
     "category": "Liga Profesional",
     "year": "2021",
-    "imgFrontUrl": "camiseta1Front-Velez-2021.png",
-    "imgBackUrl": "camiseta1Back-Velez-2021.png"
+    "imgFrontUrl": "https://raw.githubusercontent.com/robermejia/images/refs/heads/main/react_coder/camiseta1Front-Velez-2021.png",
+    "imgBackUrl": "https://raw.githubusercontent.com/robermejia/images/refs/heads/main/react_coder/camiseta1Back-Velez-2021.png",
+    "stock": 43
   },
   {
     "id": 12,
@@ -104,8 +115,9 @@
     "price": 11000,
     "category": "Liga Profesional",
     "year": "2021",
-    "imgFrontUrl": "camiseta2Front-BocaJuniors-2021.png",
-    "imgBackUrl": "camiseta2Back-BocaJuniors-2021.png"
+    "imgFrontUrl": "https://raw.githubusercontent.com/robermejia/images/refs/heads/main/react_coder/camiseta2Front-BocaJuniors-2021.png",
+    "imgBackUrl": "https://raw.githubusercontent.com/robermejia/images/refs/heads/main/react_coder/camiseta2Back-BocaJuniors-2021.png",
+    "stock": 19
   },
   {
     "id": 13,
@@ -113,8 +125,9 @@
     "price": 9500,
     "category": "Liga Profesional",
     "year": "2021",
-    "imgFrontUrl": "camiseta2Front-RosarioCentral-2022.png",
-    "imgBackUrl": "camiseta2Back-RosarioCentral-2022.png"
+    "imgFrontUrl": "https://raw.githubusercontent.com/robermejia/images/refs/heads/main/react_coder/camiseta2Front-RosarioCentral-2022.png",
+    "imgBackUrl": "https://raw.githubusercontent.com/robermejia/images/refs/heads/main/react_coder/camiseta2Back-RosarioCentral-2022.png",
+    "stock": 49
   },
   {
     "id": 14,
@@ -122,8 +135,9 @@
     "price": 10000,
     "category": "Liga Profesional",
     "year": "2021",
-    "imgFrontUrl": "camiseta2Front-CentralCordoba-2022.png",
-    "imgBackUrl": "camiseta2Back-CentralCordoba-2022.png"
+    "imgFrontUrl": "https://raw.githubusercontent.com/robermejia/images/refs/heads/main/react_coder/camiseta2Front-CentralCordoba-2022.png",
+    "imgBackUrl": "https://raw.githubusercontent.com/robermejia/images/refs/heads/main/react_coder/camiseta2Back-CentralCordoba-2022.png",
+    "stock": 37
   },
   {
     "id": 15,
@@ -131,8 +145,9 @@
     "price": 12000,
     "category": "Liga Profesional",
     "year": "2022",
-    "imgFrontUrl": "camiseta3Front-BocaJuniors-2022.png",
-    "imgBackUrl": "camiseta3Back-BocaJuniors-2022.png"
+    "imgFrontUrl": "https://raw.githubusercontent.com/robermejia/images/refs/heads/main/react_coder/camiseta3Front-BocaJuniors-2022.png",
+    "imgBackUrl": "https://raw.githubusercontent.com/robermejia/images/refs/heads/main/react_coder/camiseta3Back-BocaJuniors-2022.png",
+    "stock": 9
   },
   {
     "id": 16,
@@ -140,8 +155,9 @@
     "price": 8000,
     "category": "Liga Profesional",
     "year": "2021",
-    "imgFrontUrl": "camiseta2Front-Estudiantes-2021.png",
-    "imgBackUrl": "camiseta2Back-Estudiantes-2021.png"
+    "imgFrontUrl": "https://raw.githubusercontent.com/robermejia/images/refs/heads/main/react_coder/camiseta2Front-Estudiantes-2021.png",
+    "imgBackUrl": "https://raw.githubusercontent.com/robermejia/images/refs/heads/main/react_coder/camiseta2Back-Estudiantes-2021.png",
+    "stock": 11
   },
   {
     "id": 17,
@@ -149,8 +165,9 @@
     "price": 11500,
     "category": "Liga Profesional",
     "year": "2021",
-    "imgFrontUrl": "camiseta2Front-Independiente-2021.png",
-    "imgBackUrl": "camiseta2Back-Independiente-2021.png"
+    "imgFrontUrl": "https://raw.githubusercontent.com/robermejia/images/refs/heads/main/react_coder/camiseta2Front-Independiente-2021.png",
+    "imgBackUrl": "https://raw.githubusercontent.com/robermejia/images/refs/heads/main/react_coder/camiseta2Back-Independiente-2021.png",
+    "stock": 13
   },
   {
     "id": 18,
@@ -158,8 +175,9 @@
     "price": 9000,
     "category": "Liga Profesional",
     "year": "2022",
-    "imgFrontUrl": "camiseta2Front-Newells-2022.png",
-    "imgBackUrl": "camiseta2Back-Newells-2022.png"
+    "imgFrontUrl": "https://raw.githubusercontent.com/robermejia/images/refs/heads/main/react_coder/camiseta2Front-Newells-2022.png",
+    "imgBackUrl": "https://raw.githubusercontent.com/robermejia/images/refs/heads/main/react_coder/camiseta2Back-Newells-2022.png",
+    "stock": 39
   },
   {
     "id": 19,
@@ -167,8 +185,9 @@
     "price": 10500,
     "category": "Liga Profesional",
     "year": "2021",
-    "imgFrontUrl": "camiseta2Front-Racing-2021.png",
-    "imgBackUrl": "camiseta2Back-Racing-2021.png"
+    "imgFrontUrl": "https://raw.githubusercontent.com/robermejia/images/refs/heads/main/react_coder/camiseta2Front-Racing-2021.png",
+    "imgBackUrl": "https://raw.githubusercontent.com/robermejia/images/refs/heads/main/react_coder/camiseta2Back-Racing-2021.png",
+    "stock": 34
   },
   {
     "id": 20,
@@ -176,8 +195,9 @@
     "price": 11000,
     "category": "Liga Profesional",
     "year": "2021",
-    "imgFrontUrl": "camiseta2Front-RiverPlate-2021.png",
-    "imgBackUrl": "camiseta2Back-RiverPlate-2021.png"
+    "imgFrontUrl": "https://raw.githubusercontent.com/robermejia/images/refs/heads/main/react_coder/camiseta2Front-RiverPlate-2021.png",
+    "imgBackUrl": "https://raw.githubusercontent.com/robermejia/images/refs/heads/main/react_coder/camiseta2Back-RiverPlate-2021.png",
+    "stock": 5
   },
   {
     "id": 21,
@@ -185,8 +205,9 @@
     "price": 11000,
     "category": "Liga Profesional",
     "year": "2021",
-    "imgFrontUrl": "camiseta3Front-RiverPlate-2021.png",
-    "imgBackUrl": "camiseta3Back-RiverPlate-2021.png"
+    "imgFrontUrl": "https://raw.githubusercontent.com/robermejia/images/refs/heads/main/react_coder/camiseta3Front-RiverPlate-2021.png",
+    "imgBackUrl": "https://raw.githubusercontent.com/robermejia/images/refs/heads/main/react_coder/camiseta3Back-RiverPlate-2021.png",
+    "stock": 6
   },
   {
     "id": 22,
@@ -194,8 +215,9 @@
     "price": 4000,
     "category": "Primera Profesional",
     "year": "2020",
-    "imgFrontUrl": "camiseta2Front-SanMartinTucuman-2020.png",
-    "imgBackUrl": "camiseta2Back-SanMartinTucuman-2020.png"
+    "imgFrontUrl": "https://raw.githubusercontent.com/robermejia/images/refs/heads/main/react_coder/camiseta2Front-SanMartinTucuman-2020.png",
+    "imgBackUrl": "https://raw.githubusercontent.com/robermejia/images/refs/heads/main/react_coder/camiseta2Back-SanMartinTucuman-2020.png",
+    "stock": 39
   },
   {
     "id": 23,
@@ -203,8 +225,9 @@
     "price": 6000,
     "category": "Primera Profesional",
     "year": "2022",
-    "imgFrontUrl": "camiseta1Front-Instituto-2022.png",
-    "imgBackUrl": "camiseta1Back-Instituto-2022.png"
+    "imgFrontUrl": "https://raw.githubusercontent.com/robermejia/images/refs/heads/main/react_coder/camiseta1Front-Instituto-2022.png",
+    "imgBackUrl": "https://raw.githubusercontent.com/robermejia/images/refs/heads/main/react_coder/camiseta1Back-Instituto-2022.png",
+    "stock": 23
   },
   {
     "id": 24,
@@ -212,8 +235,9 @@
     "price": 6500,
     "category": "Primera Profesional",
     "year": "2022",
-    "imgFrontUrl": "camiseta1Front-AlmiranteBrown-2022.png",
-    "imgBackUrl": "camiseta1Back-AlmiranteBrown-2022.png"
+    "imgFrontUrl": "https://raw.githubusercontent.com/robermejia/images/refs/heads/main/react_coder/camiseta1Front-AlmiranteBrown-2022.png",
+    "imgBackUrl": "https://raw.githubusercontent.com/robermejia/images/refs/heads/main/react_coder/camiseta1Back-AlmiranteBrown-2022.png",
+    "stock": 26
   },
   {
     "id": 25,
@@ -221,8 +245,9 @@
     "price": 5500,
     "category": "Primera Profesional",
     "year": "2022",
-    "imgFrontUrl": "camiseta1Front-GimnasiaJujuy-2022.png",
-    "imgBackUrl": "camiseta1Back-GimnasiaJujuy-2022.png"
+    "imgFrontUrl": "https://raw.githubusercontent.com/robermejia/images/refs/heads/main/react_coder/camiseta1Front-GimnasiaJujuy-2022.png",
+    "imgBackUrl": "https://raw.githubusercontent.com/robermejia/images/refs/heads/main/react_coder/camiseta1Back-GimnasiaJujuy-2022.png",
+    "stock": 31
   },
   {
     "id": 26,
@@ -230,8 +255,9 @@
     "price": 5500,
     "category": "Primera Profesional",
     "year": "2022",
-    "imgFrontUrl": "camiseta3Front-GimnasiaJujuy-2022.png",
-    "imgBackUrl": "camiseta3Back-GimnasiaJujuy-2022.png"
+    "imgFrontUrl": "https://raw.githubusercontent.com/robermejia/images/refs/heads/main/react_coder/camiseta3Front-GimnasiaJujuy-2022.png",
+    "imgBackUrl": "https://raw.githubusercontent.com/robermejia/images/refs/heads/main/react_coder/camiseta3Back-GimnasiaJujuy-2022.png",
+    "stock": 29
   },
   {
     "id": 27,
@@ -239,8 +265,9 @@
     "price": 7500,
     "category": "Primera Profesional",
     "year": "2021",
-    "imgFrontUrl": "camiseta1Front-Ferro-2021.png",
-    "imgBackUrl": "camiseta1Back-Ferro-2021.png"
+    "imgFrontUrl": "https://raw.githubusercontent.com/robermejia/images/refs/heads/main/react_coder/camiseta1Front-Ferro-2021.png",
+    "imgBackUrl": "https://raw.githubusercontent.com/robermejia/images/refs/heads/main/react_coder/camiseta1Back-Ferro-2021.png",
+    "stock": 23
   },
   {
     "id": 28,
@@ -248,8 +275,9 @@
     "price": 6500,
     "category": "Primera Profesional",
     "year": "2021",
-    "imgFrontUrl": "camiseta1Front-NuevaChicago-2021.png",
-    "imgBackUrl": "camiseta1Back-NuevaChicago-2021.png"
+    "imgFrontUrl": "https://raw.githubusercontent.com/robermejia/images/refs/heads/main/react_coder/camiseta1Front-NuevaChicago-2021.png",
+    "imgBackUrl": "https://raw.githubusercontent.com/robermejia/images/refs/heads/main/react_coder/camiseta1Back-NuevaChicago-2021.png",
+    "stock": 30
   },
   {
     "id": 29,
@@ -257,8 +285,9 @@
     "price": 7000,
     "category": "Primera Profesional",
     "year": "2022",
-    "imgFrontUrl": "camiseta1Front-Atlanta-2022.png",
-    "imgBackUrl": "camiseta1Back-Atlanta-2022.png"
+    "imgFrontUrl": "https://raw.githubusercontent.com/robermejia/images/refs/heads/main/react_coder/camiseta1Front-Atlanta-2022.png",
+    "imgBackUrl": "https://raw.githubusercontent.com/robermejia/images/refs/heads/main/react_coder/camiseta1Back-Atlanta-2022.png",
+    "stock": 31
   },
   {
     "id": 30,
@@ -266,8 +295,9 @@
     "price": 6000,
     "category": "Primera Profesional",
     "year": "2021",
-    "imgFrontUrl": "camiseta1Front-EstudiantesRioCuarto-2021.png",
-    "imgBackUrl": "camiseta1Back-EstudiantesRioCuarto-2021.png"
+    "imgFrontUrl": "https://raw.githubusercontent.com/robermejia/images/refs/heads/main/react_coder/camiseta1Front-EstudiantesRioCuarto-2021.png",
+    "imgBackUrl": "https://raw.githubusercontent.com/robermejia/images/refs/heads/main/react_coder/camiseta1Back-EstudiantesRioCuarto-2021.png",
+    "stock": 17
   },
   {
     "id": 31,
@@ -275,8 +305,9 @@
     "price": 6000,
     "category": "Primera Profesional",
     "year": "2020",
-    "imgFrontUrl": "camiseta1Front-Temperley-2020.png",
-    "imgBackUrl": "camiseta1Back-Temperley-2020.png"
+    "imgFrontUrl": "https://raw.githubusercontent.com/robermejia/images/refs/heads/main/react_coder/camiseta1Front-Temperley-2020.png",
+    "imgBackUrl": "https://raw.githubusercontent.com/robermejia/images/refs/heads/main/react_coder/camiseta1Back-Temperley-2020.png",
+    "stock": 44
   },
   {
     "id": 32,
@@ -284,8 +315,9 @@
     "price": 6500,
     "category": "Liga Profesional",
     "year": "2021",
-    "imgFrontUrl": "shorts1Front-BocaJuniors-2021.png",
-    "imgBackUrl": "shorts1Back-BocaJuniors-2021.png"
+    "imgFrontUrl": "https://raw.githubusercontent.com/robermejia/images/refs/heads/main/react_coder/shorts1Front-BocaJuniors-2021.png",
+    "imgBackUrl": "https://raw.githubusercontent.com/robermejia/images/refs/heads/main/react_coder/shorts1Back-BocaJuniors-2021.png",
+    "stock": 27
   },
   {
     "id": 33,
@@ -293,8 +325,9 @@
     "price": 6000,
     "category": "Liga Profesional",
     "year": "2021",
-    "imgFrontUrl": "shorts1Front-Racing-2021.png",
-    "imgBackUrl": "shorts1Back-Racing-2021.png"
+    "imgFrontUrl": "https://raw.githubusercontent.com/robermejia/images/refs/heads/main/react_coder/shorts1Front-Racing-2021.png",
+    "imgBackUrl": "https://raw.githubusercontent.com/robermejia/images/refs/heads/main/react_coder/shorts1Back-Racing-2021.png",
+    "stock": 32
   },
   {
     "id": 34,
@@ -302,8 +335,9 @@
     "price": 6000,
     "category": "Liga Profesional",
     "year": "2021",
-    "imgFrontUrl": "shorts1Front-RiverPlate-2021.png",
-    "imgBackUrl": "shorts1Back-RiverPlate-2021.png"
+    "imgFrontUrl": "https://raw.githubusercontent.com/robermejia/images/refs/heads/main/react_coder/shorts1Front-RiverPlate-2021.png",
+    "imgBackUrl": "https://raw.githubusercontent.com/robermejia/images/refs/heads/main/react_coder/shorts1Back-RiverPlate-2021.png",
+    "stock": 6
   },
   {
     "id": 35,
@@ -311,8 +345,9 @@
     "price": 5000,
     "category": "Liga Profesional",
     "year": "2022",
-    "imgFrontUrl": "shorts1Front-RosarioCentral-2022.png",
-    "imgBackUrl": "shorts1Back-RosarioCentral-2022.png"
+    "imgFrontUrl": "https://raw.githubusercontent.com/robermejia/images/refs/heads/main/react_coder/shorts1Front-RosarioCentral-2022.png",
+    "imgBackUrl": "https://raw.githubusercontent.com/robermejia/images/refs/heads/main/react_coder/shorts1Back-RosarioCentral-2022.png",
+    "stock": 40
   },
   {
     "id": 36,
@@ -320,8 +355,9 @@
     "price": 11000,
     "category": "Selección Argentina",
     "year": "2021",
-    "imgFrontUrl": "camiseta1Front-Argentina-2021.png",
-    "imgBackUrl": "camiseta1Back-Argentina-2021.png"
+    "imgFrontUrl": "https://raw.githubusercontent.com/robermejia/images/refs/heads/main/react_coder/camiseta1Front-Argentina-2021.png",
+    "imgBackUrl": "https://raw.githubusercontent.com/robermejia/images/refs/heads/main/react_coder/camiseta1Back-Argentina-2021.png",
+    "stock": 46
   },
   {
     "id": 37,
@@ -329,8 +365,9 @@
     "price": 10000,
     "category": "Selección Argentina",
     "year": "2021",
-    "imgFrontUrl": "camiseta2Front-Argentina-2021.png",
-    "imgBackUrl": "camiseta2Back-Argentina-2021.png"
+    "imgFrontUrl": "https://raw.githubusercontent.com/robermejia/images/refs/heads/main/react_coder/camiseta2Front-Argentina-2021.png",
+    "imgBackUrl": "https://raw.githubusercontent.com/robermejia/images/refs/heads/main/react_coder/camiseta2Back-Argentina-2021.png",
+    "stock": 16
   },
   {
     "id": 38,
@@ -338,8 +375,9 @@
     "price": 9500,
     "category": "Selección Argentina",
     "year": "2019",
-    "imgFrontUrl": "camiseta1Front-Argentina-2019.png",
-    "imgBackUrl": "camiseta1Back-Argentina-2019.png"
+    "imgFrontUrl": "https://raw.githubusercontent.com/robermejia/images/refs/heads/main/react_coder/camiseta1Front-Argentina-2019.png",
+    "imgBackUrl": "https://raw.githubusercontent.com/robermejia/images/refs/heads/main/react_coder/camiseta1Back-Argentina-2019.png",
+    "stock": 31
   },
   {
     "id": 39,
@@ -347,8 +385,9 @@
     "price": 6500,
     "category": "Selección Argentina",
     "year": "2019",
-    "imgFrontUrl": "short1Front-Argentina-2021.png",
-    "imgBackUrl": "short1Back-Argentina-2021.png"
+    "imgFrontUrl": "https://raw.githubusercontent.com/robermejia/images/refs/heads/main/react_coder/short1Front-Argentina-2021.png",
+    "imgBackUrl": "https://raw.githubusercontent.com/robermejia/images/refs/heads/main/react_coder/short1Back-Argentina-2021.png",
+    "stock": 18
   },
   {
     "id": 40,
@@ -356,8 +395,9 @@
     "price": 8000,
     "category": "Selección Argentina",
     "year": "2021",
-    "imgFrontUrl": "camisetaEntrenFront-Argentina-2021.png",
-    "imgBackUrl": "camisetaEntrenBack-Argentina-2021.png"
+    "imgFrontUrl": "https://raw.githubusercontent.com/robermejia/images/refs/heads/main/react_coder/camisetaEntrenFront-Argentina-2021.png",
+    "imgBackUrl": "https://raw.githubusercontent.com/robermejia/images/refs/heads/main/react_coder/camisetaEntrenBack-Argentina-2021.png",
+    "stock": 30
   },
   {
     "id": 41,
@@ -365,8 +405,9 @@
     "price": 11000,
     "category": "Selección Argentina",
     "year": "2021",
-    "imgFrontUrl": "camisetaArqFront-Argentina-2021.png",
-    "imgBackUrl": "camisetaArqBack-Argentina-2021.png"
+    "imgFrontUrl": "https://raw.githubusercontent.com/robermejia/images/refs/heads/main/react_coder/camisetaArqFront-Argentina-2021.png",
+    "imgBackUrl": "https://raw.githubusercontent.com/robermejia/images/refs/heads/main/react_coder/camisetaArqBack-Argentina-2021.png",
+    "stock": 45
   },
   {
     "id": 42,
@@ -374,8 +415,9 @@
     "price": 6500,
     "category": "Selección Argentina",
     "year": "2021",
-    "imgFrontUrl": "shortArqFront-Argentina-2021.png",
-    "imgBackUrl": "shortArqBack-Argentina-2021.png"
+    "imgFrontUrl": "https://raw.githubusercontent.com/robermejia/images/refs/heads/main/react_coder/shortArqFront-Argentina-2021.png",
+    "imgBackUrl": "https://raw.githubusercontent.com/robermejia/images/refs/heads/main/react_coder/shortArqBack-Argentina-2021.png",
+    "stock": 31
   },
   {
     "id": 43,
@@ -383,8 +425,9 @@
     "price": 15000,
     "category": "Selección Argentina",
     "year": "2021",
-    "imgFrontUrl": "campera1Front-Argentina-2021.png",
-    "imgBackUrl": "campera1Back-Argentina-2021.png"
+    "imgFrontUrl": "https://raw.githubusercontent.com/robermejia/images/refs/heads/main/react_coder/campera1Front-Argentina-2021.png",
+    "imgBackUrl": "https://raw.githubusercontent.com/robermejia/images/refs/heads/main/react_coder/campera1Back-Argentina-2021.png",
+    "stock": 15
   },
   {
     "id": 44,
@@ -392,8 +435,9 @@
     "price": 8000,
     "category": "Liga Profesional",
     "year": "2021",
-    "imgFrontUrl": "camiseta1Front-Colon-2021.png",
-    "imgBackUrl": "camiseta1Back-Colon-2021.png"
+    "imgFrontUrl": "https://raw.githubusercontent.com/robermejia/images/refs/heads/main/react_coder/camiseta1Front-Colon-2021.png",
+    "imgBackUrl": "https://raw.githubusercontent.com/robermejia/images/refs/heads/main/react_coder/camiseta1Back-Colon-2021.png",
+    "stock": 20
   },
   {
     "id": 45,
@@ -401,8 +445,9 @@
     "price": 7000,
     "category": "Liga Profesional",
     "year": "2022",
-    "imgFrontUrl": "camiseta1Front-Huracan-2022.png",
-    "imgBackUrl": "camiseta1Back-Huracan-2022.png"
+    "imgFrontUrl": "https://raw.githubusercontent.com/robermejia/images/refs/heads/main/react_coder/camiseta1Front-Huracan-2022.png",
+    "imgBackUrl": "https://raw.githubusercontent.com/robermejia/images/refs/heads/main/react_coder/camiseta1Back-Huracan-2022.png",
+    "stock": 39
   },
   {
     "id": 46,
@@ -410,8 +455,9 @@
     "price": 10500,
     "category": "Liga Profesional",
     "year": "2021",
-    "imgFrontUrl": "camiseta1Front-SanLorenzo-2021.png",
-    "imgBackUrl": "camiseta1Back-SanLorenzo-2021.png"
+    "imgFrontUrl": "https://raw.githubusercontent.com/robermejia/images/refs/heads/main/react_coder/camiseta1Front-SanLorenzo-2021.png",
+    "imgBackUrl": "https://raw.githubusercontent.com/robermejia/images/refs/heads/main/react_coder/camiseta1Back-SanLorenzo-2021.png",
+    "stock": 28
   },
   {
     "id": 48,
@@ -419,7 +465,8 @@
     "price": 8500,
     "category": "Liga Profesional",
     "year": "2021",
-    "imgFrontUrl": "camiseta1Front-Defensa-2021.png",
-    "imgBackUrl": "camiseta1Back-Defensa-2021.png"
+    "imgFrontUrl": "https://raw.githubusercontent.com/robermejia/images/refs/heads/main/react_coder/camiseta1Front-Defensa-2021.png",
+    "imgBackUrl": "https://raw.githubusercontent.com/robermejia/images/refs/heads/main/react_coder/camiseta1Back-Defensa-2021.png",
+    "stock": 28
   }
 ]
