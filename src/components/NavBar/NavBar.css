@@ -124,11 +124,11 @@
   text-align: center;
 }
 @media (max-width: 768px) {
-  /**/
-  /* .nav-links li a{
-      width: calc(100% - 65px);
-  } */
-  /**/
+  /* */
+  .nav-links li a{
+      width: calc(100% - 35px);
+  }
+  /* */
   .cart-widget-mobile {
     display: block;
   }
