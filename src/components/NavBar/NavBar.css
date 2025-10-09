@@ -1,5 +1,6 @@
 .navbar {
-  width: 1240px;
+  width: 100%;
+  max-width: 1240px;
   height: 100px;
   margin: 0 auto;
   display: flex;
@@ -8,12 +9,40 @@
   padding: 0.75rem 2rem;
   background: #ffffff;
   color: #000000;
-  /* box-shadow: 0 2px 8px rgba(0,0,0,0.08); */
+  position: relative;
+  box-sizing: border-box;
+}
+/**/
+.navbar-toggle {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  padding: 0.5rem;
+  background: none;
+  border: none;
+  z-index: 1001;
+  position: relative;
+  width: 50px;
+  height: 570px;
+  overflow: hidden;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+/**/
+.navbar-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
 }
 
 .logo-img {
   width: 130px;
   height: auto;
+  max-width: 100%;
 }
 
 .nav-links {
@@ -22,21 +51,12 @@
   list-style: none;
   margin: 0;
   padding: 0;
+  align-items: center;
 }
 
-/* .nav-links a {
-  color: #fff;
-  text-decoration: none;
-  font-size: 55px;
-  transition: color 0.2s;
+/* .nav-links li a .isActive {
+  width: calc(100% - 65px);
 } */
-
-li a {
-  color: #000000;
-  text-decoration: none;
-  font-size: 1rem;
-  transition: color 0.2s;
-}
 
 .nav-links a {
   color: #000000;
@@ -45,8 +65,7 @@ li a {
   font-weight: 400;
   transition: color 0.2s, font-weight 0.2s;
   display: inline-block;
-  height: 1rem; /* Fija la altura para evitar movimiento */
-
+  white-space: nowrap;
 }
 
 .nav-links a:hover {
@@ -54,10 +73,158 @@ li a {
   font-weight: 600;
 }
 
-
-/*Agregado ultimo*/
-/* en NavBar.css */
 .nav-links a.active {
   font-weight: 700;
   text-decoration: underline;
 }
+
+.navbar-toggle {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  padding: 0.5rem;
+  background: none;
+  border: none;
+  z-index: 1001;
+  position: relative;
+  width: 40px;
+  height: 40px;
+}
+
+.navbar-toggle span {
+  width: 25px;
+  height: 3px;
+  background-color: #000000;
+  margin: 3px 0;
+  transition: all 0.3s ease;
+  border-radius: 2px;
+  display: block;
+  transform-origin: center;
+}
+
+.navbar-toggle.active span:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.navbar-toggle.active span:nth-child(2) {
+  opacity: 0;
+  transform: translateX(-20px);
+}
+
+.navbar-toggle.active span:nth-child(3) {
+  transform: rotate(-45deg) translate(7px, -6px);
+}
+/*
+*/
+.cart-widget-mobile {
+  margin-top: 1rem;
+  padding: 1rem;
+  border-top: 1px solid #eee;
+  width: 100%;
+  text-align: center;
+}
+@media (max-width: 768px) {
+  /**/
+  .nav-links li a{
+      width: calc(100% - 65px);
+  }
+  /**/
+  .cart-widget-mobile {
+    display: block;
+  }
+  
+  .nav-links li:last-child {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid #eee;
+  }
+  /**/
+  /* .cart-widget-mobile {
+    width: 60%;
+  }
+  .cart-widget{
+    width: 40%;
+  } */
+  /**/
+  .navbar {
+    padding: 0.75rem 1rem;
+    height: auto;
+    min-height: 80px;
+    position: relative;
+    overflow-x: hidden;
+  }
+
+  .navbar-container {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  .navbar-toggle {
+    display: flex;
+  }
+
+  .nav-links {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 100vw;
+    height: 100vh;
+    background-color: #ffffff;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    transition: left 0.3s ease-in-out;
+    z-index: 1000;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 2rem 0;
+    overflow-y: auto;
+  }
+
+  .nav-links.active {
+    left: 0;
+  }
+
+  .nav-links li {
+    margin: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  .nav-links a {
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
+    display: block;
+    width: 100%;
+    text-align: center;
+    transition: all 0.3s ease;
+  }
+
+  .nav-links a:hover {
+    background-color: #f8f9fa;
+    color: #000000;
+  }
+
+  .logo-img {
+    width: 100px;
+  }
+}
+
+@media (max-width: 480px) {
+  /**/
+  .navbar {
+    padding: 0.5rem 1rem;
+    min-height: 70px;
+  }
+
+  .nav-links a {
+    font-size: 1.1rem;
+    padding: 0.8rem 1.5rem;
+  }
+
+  .logo-img {
+    width: 90px;
+  }
+}
+
