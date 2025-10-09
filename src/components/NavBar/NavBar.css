@@ -125,9 +125,9 @@
 }
 @media (max-width: 768px) {
   /**/
-  .nav-links li a{
+  /* .nav-links li a{
       width: calc(100% - 65px);
-  }
+  } */
   /**/
   .cart-widget-mobile {
     display: block;
