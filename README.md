@@ -141,4 +141,4 @@ const firebaseConfig = {
 - **Estructura**: Separación de responsabilidades (containers/presentational)
 
 ## Autor
-Desarrollado como proyecto final del curso de React en Coderhouse.
+Desarrollado por Roberto Agustín Mejía Collazos como proyecto final del curso de React en Coderhouse.
