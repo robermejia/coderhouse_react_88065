@@ -16,4 +16,10 @@
 [![YouTube Video](https://img.youtube.com/vi/79n17o9y3GI/1.jpg)](https://www.youtube.com/watch?v=79n17o9y3GI)
 ### 5 - Clase Práctica
 [![YouTube Video](https://img.youtube.com/vi/x0hClrADQ1w/1.jpg)](https://www.youtube.com/watch?v=x0hClrADQ1w)
+### 6 - Clase Práctica
+[![YouTube Video](https://img.youtube.com/vi/aLymy_9HxPs/1.jpg)](https://www.youtube.com/watch?v=aLymy_9HxPs)
+### 7 - Clase Práctica
+[![YouTube Video](https://img.youtube.com/vi/3X0KmVFb7kg/1.jpg)](https://www.youtube.com/watch?v=3X0KmVFb7kg)
+### 8 - Clase Práctica
+[![YouTube Video](https://img.youtube.com/vi/B2FC9u4ADno/1.jpg)](https://www.youtube.com/watch?v=B2FC9u4ADno)
 
