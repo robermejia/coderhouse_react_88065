@@ -2,7 +2,7 @@
     <img src="https://jobs.coderhouse.com/assets/logos_coderhouse.png" alt="CoderHouse"  height="100"/>
 </p>
 
-#E-commerce React - Proyecto Final
+## E-commerce React - Proyecto Final
 
 ## Descripción
 Aplicación web de e-commerce desarrollada con React que permite a los usuarios navegar, ver productos, agregar items al carrito y realizar compras.
