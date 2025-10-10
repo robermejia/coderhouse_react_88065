@@ -1,3 +1,6 @@
+<p align="center"> 
+    <img src="https://jobs.coderhouse.com/assets/logos_coderhouse.png" alt="CoderHouse"  height="100"/>
+</p>
 # E-commerce React - Proyecto Final
 
 ## Descripción
