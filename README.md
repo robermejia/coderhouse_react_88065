@@ -1,3 +1,6 @@
+<p align="center"> 
+    <img src="https://jobs.coderhouse.com/assets/logos_coderhouse.png" alt="CoderHouse"  height="100"/>
+</p>
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
