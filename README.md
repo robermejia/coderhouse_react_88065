@@ -92,4 +92,4 @@ src/
 *Proyecto Final - Curso de React en Coderhouse*
 
 ---
-© 2026 Roberto Mejía. Todos los derechos reservados.
+© 2025 Roberto Mejía. Todos los derechos reservados.
