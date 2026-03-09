@@ -2,117 +2,77 @@
     <img src="https://jobs.coderhouse.com/assets/logos_coderhouse.png" alt="CoderHouse"  height="100"/>
 </p>
 
-## E-commerce React - Proyecto Final
+# 🛒 E-commerce React - Proyecto Final
 
-## Descripción
-Aplicación web de e-commerce desarrollada con React que permite a los usuarios navegar, ver productos, agregar items al carrito y realizar compras.
+[![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://coderhouse-react-88065.vercel.app/)
+[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev/)
+[![Firebase](https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Firebase&logoColor=white)](https://firebase.google.com/)
 
-## Tecnologías Utilizadas
-- **React 19.1.1** - Framework principal
-- **React Router DOM 7.9.1** - Navegación
-- **Firebase/Firestore** - Base de datos
-- **Vite** - Herramienta de build
-- **CSS3** - Estilos
+## 👁️ Vista Previa
+![Preview](https://robermejia.com/img/portfolio/large/project-10/1.png)
 
-## Funcionalidades Implementadas
+## 📝 Descripción
+Aplicación web de e-commerce desarrollada con **React 19** que permite a los usuarios navegar por un catálogo de productos, filtrar por categorías, gestionar un carrito de compras y finalizar pedidos con persistencia en **Firebase Firestore**.
 
-### ✅ Listado y Detalle de Productos
-- **ItemListContainer**: Contenedor que obtiene productos de Firestore
-- **ItemDetailContainer**: Vista detallada de productos individuales
-- **ItemCount**: Componente para seleccionar cantidad con validaciones
-- Separación clara entre componentes contenedores y de presentación
+## 🚀 Demo en Vivo
+Puedes ver el proyecto desplegado aquí: [https://coderhouse-react-88065.vercel.app/](https://coderhouse-react-88065.vercel.app/)
 
-### ✅ Navegación
-- **React Router**: Navegación SPA sin recargas
-- **NavBar**: Navegación entre secciones (Inicio, Productos, Categorías, Carrito)
-- Rutas implementadas:
-  - `/` - Página principal
-  - `/productos` - Lista de todos los productos
-  - `/categoria/:category` - Productos por categoría
-  - `/producto/:id` - Detalle de producto
-  - `/cart` - Carrito de compras
-  - `/checkout` - Finalizar compra
+## 🛠️ Tecnologías Utilizadas
+- **React 19.1.1** - Framework principal (Hooks, Context API)
+- **React Router DOM 7.9.1** - Navegación SPA
+- **Firebase 12.3.0** - Backend as a Service (Firestore)
+- **Vite** - Herramienta de construcción y desarrollo
+- **CSS3** - Estilos personalizados y Responsive Design
 
-### ✅ Carrito de Compras
-- **Context API**: Gestión del estado del carrito
-- **Cart**: Visualización del carrito con productos y totales
-- **CartItem**: Item individual del carrito
-- **CartWidget**: Icono con contador de items
-- Funcionalidades:
-  - Agregar/eliminar productos
-  - Actualizar cantidades
-  - Calcular totales
-  - Persistencia durante la sesión
+## ✨ Funcionalidades
 
-### ✅ Firebase/Firestore
-- **Conexión**: Configuración de Firebase
-- **Servicios**: Funciones para obtener productos
-- **Órdenes**: Guardado de compras en Firestore
-- **Consultas**: Por ID, categoría y listado general
+### 📦 Gestión de Productos
+- **Catálogo Dinámico**: Obtención de datos en tiempo real desde Firestore.
+- **Detalle de Producto**: Vista expandida con información técnica y stock.
+- **Filtros por Categoría**: Navegación segmentada para una mejor búsqueda.
 
-### ✅ Experiencia de Usuario
-- **Loaders**: Indicadores de carga
-- **Mensajes condicionales**: "Carrito vacío", "Producto sin stock"
-- **Validaciones**: Stock, cantidades mínimas
-- **Feedback**: Confirmación de órdenes con ID
+### 🛒 Carrito de Compras
+- **Estado Global**: Implementado con Context API para persistencia entre rutas.
+- **Control de Cantidades**: Validación automática contra el stock disponible.
+- **Resumen de Compra**: Cálculo automático de subtotales y total general.
 
-## Estructura de Componentes
+### 💳 Checkout y Órdenes
+- **Formulario de Contacto**: Validación de datos del comprador.
+- **Generación de Orden**: Creación de documentos únicos en Firestore con ID de seguimiento.
+- **Feedback al Usuario**: Notificación de éxito con el número de orden generado.
 
+---
 
-## Configuración de Firebase
+## 📂 Estructura de Componentes
 
-```javascript
-const firebaseConfig = {
-  apiKey: "AIzaSyDGKM493BtYyIHZyeFkXNETJ-5APDI8Lnk",
-  authDomain: "react-coder-88065.firebaseapp.com",
-  projectId: "react-coder-88065",
-  storageBucket: "react-coder-88065.firebasestorage.app",
-  messagingSenderId: "680484880299",
-  appId: "1:680484880299:web:f7cf7b8cb3a1aa453b9cee"
-};
+```
+src/
+ ├── components/
+ │    ├── Cart/                 # Vista y lógica del carrito
+ │    ├── CheckoutForm/         # Formulario de finalización
+ │    ├── ItemCount/            # Selector de cantidad con lógica de stock
+ │    ├── ItemDetailContainer/  # Lógica de carga para detalle
+ │    ├── ItemListContainer/    # Lógica de carga para listas
+ │    ├── NavBar/               # Navegación principal y CartWidget
+ │    ├── ProductCard/          # Representación visual de cada item
+ │    └── category/             # Componentes de filtrado
+ ├── context/                   # CartContext para estado global
+ ├── firebase/                  # Configuración de SDK
+ └── services/                  # Capa de abstracción para Firestore
 ```
 
-## Estructura de Base de Datos
+---
 
-### Colección: `products`
-```javascript
-{
-  id: "1",
-  name: "Camiseta titular Boca Juniors",
-  price: 11000,
-  category: "Liga Profesional",
-  year: "2021",
-  stock: 6,
-  imgFrontUrl: "https://raw.githubusercontent.com/...",
-  imgBackUrl: "https://raw.githubusercontent.com/..."
-}
-```
+## ⚙️ Instalación y Uso
 
-### Colección: `orders`
-```javascript
-{
-  buyer: {
-    name: "Juan Pérez",
-    email: "juan@email.com",
-    phone: "1234567890",
-    address: "Calle 123, Ciudad"
-  },
-  items: [...],
-  total: 22000,
-  date: Timestamp
-}
-```
-
-## Instalación y Uso
-
-1. **Instalar dependencias**:
+1. **Clonar el repositorio**:
    ```bash
-   npm install
+   git clone https://github.com/tu-usuario/tu-repo.git
    ```
 
-2. **Instalar Firebase**:
+2. **Instalar dependencias**:
    ```bash
-   npm install firebase
+   npm install
    ```
 
 3. **Ejecutar en desarrollo**:
@@ -125,20 +85,11 @@ const firebaseConfig = {
    npm run build
    ```
 
-## Características Técnicas
+---
 
-- **Responsive Design**: Adaptable a móviles y desktop
-- **Context API**: Gestión de estado global del carrito
-- **Firebase Integration**: Base de datos en la nube
-- **Error Handling**: Manejo de errores y estados de carga
-- **SEO Friendly**: URLs semánticas con React Router
+## 🤝 Autor
+**Roberto Agustín Mejía Collazos**  
+*Proyecto Final - Curso de React en Coderhouse*
 
-## Convenciones de Código
-
-- **Nomenclatura**: camelCase para variables y funciones
-- **Componentes**: PascalCase
-- **Archivos**: PascalCase para componentes, camelCase para utilidades
-- **Estructura**: Separación de responsabilidades (containers/presentational)
-
-## Autor
-Desarrollado por Roberto Agustín Mejía Collazos como proyecto final del curso de React en Coderhouse.
+---
+© 2026 Roberto Mejía. Todos los derechos reservados.
